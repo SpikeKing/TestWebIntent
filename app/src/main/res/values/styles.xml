@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="Theme.Transparent" parent="AppTheme.NoActionBar">
+        <!--背景色-->
+        <item name="android:windowBackground">@color/page_background</item>
+        <!--不使用背景缓存-->
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <!--控制窗口位置, 非流窗口, 固定位置, 用于非全屏窗口-->
+        <item name="android:windowIsFloating">false</item>
+        <!--窗口透明-->
+        <item name="android:windowIsTranslucent">true</item>
+        <!--窗口无标题-->
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+</resources>

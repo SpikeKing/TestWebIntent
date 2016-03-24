@@ -1,6 +1,7 @@
 # TestWebIntent
-
 实现网页链接跳转原生应用
+
+> 欢迎Follow我的[GitHub](https://github.com/SpikeKing)
 
 博客: http://www.wangchenlong.org/
 
